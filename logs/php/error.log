@@ -1,0 +1,117 @@
+[05-Jan-2022 22:09:35 UTC] PHP Warning:  filemtime(): stat failed for /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/build/index.js in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/podkit.php on line 93
+[05-Jan-2022 22:09:35 UTC] PHP Stack trace:
+[05-Jan-2022 22:09:35 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/plugins.php:0
+[05-Jan-2022 22:09:35 UTC] PHP   2. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/plugins.php:10
+[05-Jan-2022 22:09:35 UTC] PHP   3. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin.php:34
+[05-Jan-2022 22:09:35 UTC] PHP   4. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-load.php:50
+[05-Jan-2022 22:09:35 UTC] PHP   5. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-config.php:80
+[05-Jan-2022 22:09:35 UTC] PHP   6. do_action() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-settings.php:578
+[05-Jan-2022 22:09:35 UTC] PHP   7. WP_Hook->do_action() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/plugin.php:470
+[05-Jan-2022 22:09:35 UTC] PHP   8. WP_Hook->apply_filters() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/class-wp-hook.php:327
+[05-Jan-2022 22:09:35 UTC] PHP   9. podkit_register_blocks() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/class-wp-hook.php:303
+[05-Jan-2022 22:09:35 UTC] PHP  10. filemtime() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/podkit.php:93
+[05-Jan-2022 22:09:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/podkit.php:93) in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/functions.php on line 6712
+[05-Jan-2022 22:09:35 UTC] PHP Stack trace:
+[05-Jan-2022 22:09:35 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/plugins.php:0
+[05-Jan-2022 22:09:35 UTC] PHP   2. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/plugins.php:10
+[05-Jan-2022 22:09:35 UTC] PHP   3. do_action() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin.php:175
+[05-Jan-2022 22:09:35 UTC] PHP   4. WP_Hook->do_action() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/plugin.php:470
+[05-Jan-2022 22:09:35 UTC] PHP   5. WP_Hook->apply_filters() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/class-wp-hook.php:327
+[05-Jan-2022 22:09:35 UTC] PHP   6. send_frame_options_header() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/class-wp-hook.php:301
+[05-Jan-2022 22:09:35 UTC] PHP   7. header() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/functions.php:6712
+[05-Jan-2022 22:09:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/podkit.php:93) in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/includes/misc.php on line 1310
+[05-Jan-2022 22:09:35 UTC] PHP Stack trace:
+[05-Jan-2022 22:09:35 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/plugins.php:0
+[05-Jan-2022 22:09:35 UTC] PHP   2. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/plugins.php:10
+[05-Jan-2022 22:09:35 UTC] PHP   3. do_action() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin.php:175
+[05-Jan-2022 22:09:35 UTC] PHP   4. WP_Hook->do_action() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/plugin.php:470
+[05-Jan-2022 22:09:35 UTC] PHP   5. WP_Hook->apply_filters() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/class-wp-hook.php:327
+[05-Jan-2022 22:09:35 UTC] PHP   6. wp_admin_headers() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/class-wp-hook.php:303
+[05-Jan-2022 22:09:35 UTC] PHP   7. header() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/includes/misc.php:1310
+[05-Jan-2022 22:09:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/podkit.php:93) in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-header.php on line 9
+[05-Jan-2022 22:09:35 UTC] PHP Stack trace:
+[05-Jan-2022 22:09:35 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/plugins.php:0
+[05-Jan-2022 22:09:35 UTC] PHP   2. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/plugins.php:603
+[05-Jan-2022 22:09:35 UTC] PHP   3. header() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-header.php:9
+[05-Jan-2022 22:09:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/podkit.php:93) in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/option.php on line 1097
+[05-Jan-2022 22:09:35 UTC] PHP Stack trace:
+[05-Jan-2022 22:09:35 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/plugins.php:0
+[05-Jan-2022 22:09:35 UTC] PHP   2. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/plugins.php:603
+[05-Jan-2022 22:09:35 UTC] PHP   3. wp_user_settings() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-header.php:70
+[05-Jan-2022 22:09:35 UTC] PHP   4. setcookie() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/option.php:1097
+[05-Jan-2022 22:09:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/podkit.php:93) in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/option.php on line 1098
+[05-Jan-2022 22:09:35 UTC] PHP Stack trace:
+[05-Jan-2022 22:09:35 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/plugins.php:0
+[05-Jan-2022 22:09:35 UTC] PHP   2. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/plugins.php:603
+[05-Jan-2022 22:09:35 UTC] PHP   3. wp_user_settings() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-header.php:70
+[05-Jan-2022 22:09:35 UTC] PHP   4. setcookie() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/option.php:1098
+[05-Jan-2022 22:10:41 UTC] PHP Warning:  filemtime(): stat failed for /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/build/index.js in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/podkit.php on line 93
+[05-Jan-2022 22:10:41 UTC] PHP Stack trace:
+[05-Jan-2022 22:10:41 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-ajax.php:0
+[05-Jan-2022 22:10:41 UTC] PHP   2. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-ajax.php:22
+[05-Jan-2022 22:10:41 UTC] PHP   3. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-load.php:50
+[05-Jan-2022 22:10:41 UTC] PHP   4. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-config.php:80
+[05-Jan-2022 22:10:41 UTC] PHP   5. do_action() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-settings.php:578
+[05-Jan-2022 22:10:41 UTC] PHP   6. WP_Hook->do_action() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/plugin.php:470
+[05-Jan-2022 22:10:41 UTC] PHP   7. WP_Hook->apply_filters() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/class-wp-hook.php:327
+[05-Jan-2022 22:10:41 UTC] PHP   8. podkit_register_blocks() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/class-wp-hook.php:303
+[05-Jan-2022 22:10:41 UTC] PHP   9. filemtime() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/podkit.php:93
+[05-Jan-2022 22:12:42 UTC] PHP Warning:  filemtime(): stat failed for /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/build/index.js in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/podkit.php on line 93
+[05-Jan-2022 22:12:42 UTC] PHP Stack trace:
+[05-Jan-2022 22:12:42 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-ajax.php:0
+[05-Jan-2022 22:12:42 UTC] PHP   2. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-ajax.php:22
+[05-Jan-2022 22:12:42 UTC] PHP   3. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-load.php:50
+[05-Jan-2022 22:12:42 UTC] PHP   4. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-config.php:80
+[05-Jan-2022 22:12:42 UTC] PHP   5. do_action() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-settings.php:578
+[05-Jan-2022 22:12:42 UTC] PHP   6. WP_Hook->do_action() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/plugin.php:470
+[05-Jan-2022 22:12:42 UTC] PHP   7. WP_Hook->apply_filters() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/class-wp-hook.php:327
+[05-Jan-2022 22:12:42 UTC] PHP   8. podkit_register_blocks() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/class-wp-hook.php:303
+[05-Jan-2022 22:12:42 UTC] PHP   9. filemtime() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/podkit.php:93
+[05-Jan-2022 22:14:42 UTC] PHP Warning:  filemtime(): stat failed for /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/build/index.js in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/podkit.php on line 93
+[05-Jan-2022 22:14:42 UTC] PHP Stack trace:
+[05-Jan-2022 22:14:42 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-ajax.php:0
+[05-Jan-2022 22:14:42 UTC] PHP   2. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-ajax.php:22
+[05-Jan-2022 22:14:42 UTC] PHP   3. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-load.php:50
+[05-Jan-2022 22:14:42 UTC] PHP   4. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-config.php:80
+[05-Jan-2022 22:14:42 UTC] PHP   5. do_action() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-settings.php:578
+[05-Jan-2022 22:14:42 UTC] PHP   6. WP_Hook->do_action() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/plugin.php:470
+[05-Jan-2022 22:14:42 UTC] PHP   7. WP_Hook->apply_filters() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/class-wp-hook.php:327
+[05-Jan-2022 22:14:42 UTC] PHP   8. podkit_register_blocks() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/class-wp-hook.php:303
+[05-Jan-2022 22:14:42 UTC] PHP   9. filemtime() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-content/plugins/podkit/podkit.php:93
+[05-Jan-2022 22:15:34 UTC] PHP Deprecated:  block_categories is <strong>deprecated</strong> since version 5.8.0! Use block_categories_all instead. in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/functions.php on line 5586
+[05-Jan-2022 22:15:34 UTC] PHP Stack trace:
+[05-Jan-2022 22:15:34 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/post-new.php:0
+[05-Jan-2022 22:15:34 UTC] PHP   2. require() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/post-new.php:72
+[05-Jan-2022 22:15:34 UTC] PHP   3. get_block_categories() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/edit-form-blocks.php:72
+[05-Jan-2022 22:15:34 UTC] PHP   4. apply_filters_deprecated() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/block-editor.php:98
+[05-Jan-2022 22:15:34 UTC] PHP   5. _deprecated_hook() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/plugin.php:654
+[05-Jan-2022 22:15:34 UTC] PHP   6. trigger_error() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/functions.php:5586
+[05-Jan-2022 22:15:34 UTC] PHP Deprecated:  block_categories is <strong>deprecated</strong> since version 5.8.0! Use block_categories_all instead. in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/functions.php on line 5586
+[05-Jan-2022 22:15:34 UTC] PHP Stack trace:
+[05-Jan-2022 22:15:34 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/post-new.php:0
+[05-Jan-2022 22:15:34 UTC] PHP   2. require() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/post-new.php:72
+[05-Jan-2022 22:15:34 UTC] PHP   3. get_block_editor_settings() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/edit-form-blocks.php:264
+[05-Jan-2022 22:15:34 UTC] PHP   4. get_block_categories() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/block-editor.php:289
+[05-Jan-2022 22:15:34 UTC] PHP   5. apply_filters_deprecated() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/block-editor.php:98
+[05-Jan-2022 22:15:34 UTC] PHP   6. _deprecated_hook() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/plugin.php:654
+[05-Jan-2022 22:15:34 UTC] PHP   7. trigger_error() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/functions.php:5586
+[05-Jan-2022 22:15:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/functions.php:5586) in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-header.php on line 9
+[05-Jan-2022 22:15:34 UTC] PHP Stack trace:
+[05-Jan-2022 22:15:34 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/post-new.php:0
+[05-Jan-2022 22:15:34 UTC] PHP   2. require() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/post-new.php:72
+[05-Jan-2022 22:15:34 UTC] PHP   3. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/edit-form-blocks.php:289
+[05-Jan-2022 22:15:34 UTC] PHP   4. header() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-header.php:9
+[05-Jan-2022 22:15:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/functions.php:5586) in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/option.php on line 1097
+[05-Jan-2022 22:15:34 UTC] PHP Stack trace:
+[05-Jan-2022 22:15:34 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/post-new.php:0
+[05-Jan-2022 22:15:34 UTC] PHP   2. require() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/post-new.php:72
+[05-Jan-2022 22:15:34 UTC] PHP   3. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/edit-form-blocks.php:289
+[05-Jan-2022 22:15:34 UTC] PHP   4. wp_user_settings() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-header.php:70
+[05-Jan-2022 22:15:34 UTC] PHP   5. setcookie() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/option.php:1097
+[05-Jan-2022 22:15:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/functions.php:5586) in /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/option.php on line 1098
+[05-Jan-2022 22:15:34 UTC] PHP Stack trace:
+[05-Jan-2022 22:15:34 UTC] PHP   1. {main}() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/post-new.php:0
+[05-Jan-2022 22:15:34 UTC] PHP   2. require() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/post-new.php:72
+[05-Jan-2022 22:15:34 UTC] PHP   3. require_once() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/edit-form-blocks.php:289
+[05-Jan-2022 22:15:34 UTC] PHP   4. wp_user_settings() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-admin/admin-header.php:70
+[05-Jan-2022 22:15:34 UTC] PHP   5. setcookie() /Users/jaymarol/Local Sites/wordpress-learning/app/public/wp-includes/option.php:1098
